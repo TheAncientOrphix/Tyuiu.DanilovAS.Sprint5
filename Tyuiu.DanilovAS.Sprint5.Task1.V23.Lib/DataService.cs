@@ -22,6 +22,12 @@ namespace Tyuiu.DanilovAS.Sprint5.Task1.V23.Lib
             for (int i = startValue; i <= stopValue; i++)
             {
                 f = Math.Cos(i) + (Math.Cos(i) / (i + 2)) - 3 * i;
+
+                if ((Math.Cos(i) / (i + 2)) == 0)
+                {
+                    f = 0;
+                }
+
                 f = Math.Round(f, 2);
                 strF = Convert.ToString(f);
 
