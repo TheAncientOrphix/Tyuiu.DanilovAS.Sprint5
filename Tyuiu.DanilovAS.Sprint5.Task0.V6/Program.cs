@@ -31,6 +31,7 @@ namespace Tyuiu.DanilovAS.Sprint5.Task0.V6
             Console.WriteLine("***************************************************************************");
 
             string res = ds.SaveToFileTextData(x);
+
             Console.WriteLine($"Файл {res} Создан!");
             Console.ReadKey();
         }
