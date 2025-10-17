@@ -10,7 +10,7 @@ namespace Tyuiu.DanilovAS.Sprint5.Task0.V6.Test
         public void TestSaveToFileTextData()
         {
             DataService ds = new DataService();
-            string path = $@"C:\Users\shura\source\repos\Tyuiu.DanilovAS.Sprint5\Tyuiu.DanilovAS.Sprint5.Task0.V6\bin\Debug\net8.0\OutPutFileTask0.txt";
+            string path = $@"C:\Users\shura\AppData\Local\Temp\OutPutFileTask0.txt";
             FileInfo fileInfo = new FileInfo(path);
 
             bool fileExists = File.Exists(path);
