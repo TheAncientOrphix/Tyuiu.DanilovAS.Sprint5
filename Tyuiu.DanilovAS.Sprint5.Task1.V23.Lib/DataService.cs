@@ -23,7 +23,7 @@ namespace Tyuiu.DanilovAS.Sprint5.Task1.V23.Lib
             {
                 f = Math.Cos(i) + (Math.Cos(i) / (i + 2)) - 3 * i;
 
-                if ((Math.Cos(i) / (i + 2)) == 0)
+                if ((i + 2) == 0)
                 {
                     f = 0;
                 }
