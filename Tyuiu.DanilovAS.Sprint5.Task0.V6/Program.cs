@@ -7,9 +7,9 @@ namespace Tyuiu.DanilovAS.Sprint5.Task0.V6
         {
             DataService ds = new DataService();
 
-            Console.Title = "Спринт #6 | Выполнил: Данилов А.С. | ИИПб-25-1";
+            Console.Title = "Спринт #5 | Выполнил: Данилов А.С. | ИИПб-25-1";
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Спринт #6                                                               *");
+            Console.WriteLine("* Спринт #5                                                               *");
             Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант #6                                                              *");
