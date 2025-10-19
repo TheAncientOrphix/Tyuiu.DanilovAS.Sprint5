@@ -10,6 +10,7 @@ namespace Tyuiu.DanilovAS.Sprint5.Task3.V8.Lib
             string path = Path.Combine(getPath, "OutPutFileTask3.bin");
 
             double y = Math.Pow(x, 2) + 1 / (3 * x + 4);
+            y = Math.Round(y, 3);
 
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = File.Exists(path);
