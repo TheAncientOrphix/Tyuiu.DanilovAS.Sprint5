@@ -20,7 +20,7 @@ namespace Tyuiu.DanilovAS.Sprint5.Task3.V8.Lib
                 File.Delete(path);
             }
 
-            using (BinaryWriter writter = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate)))
+            using (BinaryWriter writter = new BinaryWriter(File.Open(path, FileMode.OpenOrCreate), System.Text.Encoding.UTF8))
             {
                 writter.Write(BitConverter.GetBytes(y));
             }
