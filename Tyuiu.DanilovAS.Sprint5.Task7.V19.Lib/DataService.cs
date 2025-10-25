@@ -24,8 +24,8 @@ namespace Tyuiu.DanilovAS.Sprint5.Task7.V19.Lib
                 //string line;
                 string text = File.ReadAllText(path);
 
-                string newText = text.Replace("сс", "с");
-                newText = newText.Replace("Сс", "с");
+                string newText = text.Replace("сс", "");
+                newText = newText.Replace("Сс", "");
 
             // while((line  = reader.ReadLine()) != null)
             // {
