@@ -17,25 +17,13 @@ namespace Tyuiu.DanilovAS.Sprint5.Task7.V19.Lib
                 File.Delete(pathSaveFile);
             }
 
-            string strLine = "";
+            string text = File.ReadAllText(path);
 
-            //using (StreamReader reader = new StreamReader(path))
-            //{
-                //string line;
-                string text = File.ReadAllText(path);
-
-                string newText = text.Replace("сс", "");
-                newText = newText.Replace("Сс", "");
-
-            // while((line  = reader.ReadLine()) != null)
-            // {
-            //    line = line.Replace("cc", "c");
-            //     strLine += line;
-            // }
+            string newText = text.Replace("сс", "");
+            newText = newText.Replace("Сс", "");
 
             File.AppendAllText(pathSaveFile, newText + Environment.NewLine);
-                //strLine = "";
-           // }
+            
             return pathSaveFile;
         }
     }
